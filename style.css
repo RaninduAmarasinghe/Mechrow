@@ -12,8 +12,9 @@ body {
 }
 
 nav {
-    background-color: #fff;
+    background-color: #00a30b;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+
 
 }
 
@@ -26,7 +27,7 @@ nav ul {
 }
 
 nav li {
-    height: 50px;
+    height: 65px;
 }
 
 nav a {
@@ -45,4 +46,3 @@ nav a :hover {
 nav li:first-child {
     margin-right: auto;
 }
-
