@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    min-height: 100vh;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+h2,
+h3,
+a {
+    color: #34495e;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.logo {
+    margin: 0;
+    font-size: 1.45em;
+}
+
+.main-nav {
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.logo a,
+
+.main-nav a {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+
+.main-nav a {
+    color: #34495e;
+    font-size: .99em;
+}
+
+.main-nav a:hover {
+    color: #718daa;
+}
+
+
+
+.header {
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+}
+
+@media (min-width: 769px) {
+
+    .header,
+    .main-nav {
+        display: flex;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: center;
+
+        .header {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 1150px;
+        }
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+/* Slider */
+.container {
+    margin: auto;
+}
+
+.slder-wrapper {
+    position: relative;
+    max-width: 48rem;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem rgba(0, 0%, 0%, 0.25);
+
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+
+
+}
+
+.slider-na {
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-na a {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity 250ms;
+}
+
+.slider-na a:hover {
+    opacity: 1;
+}
