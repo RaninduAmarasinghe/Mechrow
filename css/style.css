@@ -30,11 +30,16 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px;
+    padding: 2px 20px;
     /* Adjusted padding for smaller height */
     background-color: #ffffff;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    max-width: 100px;
+    height: 10;
 }
 
 .logo a {
@@ -124,7 +129,7 @@ a {
 
 .slide img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 20px;
     object-fit: cover;
 }
