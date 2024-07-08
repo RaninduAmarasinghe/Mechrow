@@ -218,8 +218,9 @@ a {
     color: #152F4F;
     font-weight: bold;
     margin-top: 20px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 .P1 h4 {
     text-align: center;
     font-size: 1.5em;
@@ -228,17 +229,119 @@ a {
     margin-top: 50px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 .P1 p {
     text-align: center;
     font-size: 1.2em;
     margin-top: 50px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-.P1 h5{
+
+.P1 h5 {
     text-align: left;
     margin-left: 15px;
     margin-top: 50px;
 }
+
+.A1 h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.A1 h5 {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.A1 h3 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.A1 h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.A1 P {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.abth h1 {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    color: #152F4F;
+}
+
+.header,
+.numbers,
+.content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.numbers {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.numbers div {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.numbers div span {
+    display: block;
+    font-size: 2em;
+    color: #333;
+}
+
+.content {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.content .section {
+    margin-bottom: 40px;
+}
+
 
 
 /* Footer */
