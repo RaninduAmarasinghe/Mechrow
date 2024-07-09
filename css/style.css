@@ -378,6 +378,62 @@ h1 {
 }
 
 
+
+.contact-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-container h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-bottom: 80px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.contact-item {
+    flex: 1;
+    max-width: 300px;
+}
+
+.contact-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-item p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+.contact-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.email a {
+    color: #000000;
+    /* Change this color as needed */
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 .footer {
     background: #152F4F;
