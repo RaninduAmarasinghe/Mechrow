@@ -28,6 +28,8 @@ a {
     text-decoration: none;
 }
 
+/* nav */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -36,6 +38,7 @@ a {
     background-color: #ffffff;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
 }
 
 .header img {
@@ -87,7 +90,7 @@ a {
 }
 
 
-
+/* Slider */
 .container {
     margin: auto;
     padding: 10px;
@@ -99,6 +102,7 @@ a {
     height: 100vh;
     /* Full viewport height */
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .slider {
@@ -109,6 +113,7 @@ a {
     scroll-behavior: smooth;
     background: -webkit-gradient(linear, left top, right top, from(rgba(37, 37, 37, 0.9)), to(rgba(37, 37, 37, 0.7)));
     background: linear-gradient(to right, rgba(37, 37, 37, 0.9), rgba(37, 37, 37, 0.7));
+
 }
 
 
@@ -181,6 +186,8 @@ a {
     margin-top: 20px;
 }
 
+/* Card */
+
 .card {
     flex: 0 0 calc(30% - 10px);
     background-color: #fff;
@@ -188,6 +195,7 @@ a {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    margin-bottom: 50px;
 }
 
 .card:hover {
@@ -214,6 +222,48 @@ a {
     color: #666;
 }
 
+/* About Section in home page(index) */
+
+.about-section {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section h1 span {
+    color: #00a4a6;
+}
+
+.about-section p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-section button {
+    padding: 10px 20px;
+    background-color: #00a4a6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.about-section button:hover {
+    background-color: #007c7d;
+}
+
+/* About Section in About Us page */
 
 .P1 h1 {
     text-align: center;
@@ -246,6 +296,7 @@ a {
     margin-top: 50px;
 }
 
+/*Contact Us page */
 .A1 h1 {
     text-align: center;
     font-size: 3em;
@@ -286,6 +337,7 @@ a {
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
 }
+
 
 .container {
     width: 80%;
@@ -436,6 +488,8 @@ h1 {
 .email a:hover {
     text-decoration: underline;
 }
+
+
 
 /* Footer */
 .footer {
