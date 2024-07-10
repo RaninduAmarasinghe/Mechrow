@@ -186,6 +186,75 @@ a {
     margin-top: 20px;
 }
 
+/* index prduct section*/
+
+.service-section{
+    width: 99%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom:50px;
+}
+.S1 h3{
+    text-align: center;
+    font-size: 2em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.S1 h5{
+    text-align: center;
+    font-size: 1.5em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.S1 p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.S2 p{
+    text-align: center;
+    font-size: 2em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.S2-1 p{
+text-align: center;
+font-size: 1.5em;
+color: #152F4F;
+font-weight: bold;
+margin-top: 20px;
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.S2-2 p{
+    text-align: center;
+    font-size: 2em;
+    color: #152F4F;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
 /* Card */
 
 .card {
