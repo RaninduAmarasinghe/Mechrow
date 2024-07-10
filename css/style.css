@@ -336,6 +336,7 @@ a {
 .about-section h1 {
     font-size: 2em;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .about-section h1 span {
@@ -370,7 +371,7 @@ a {
     color: #152F4F;
     font-weight: bold;
     margin-top: 20px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
 }
 
 .P1 h4 {
@@ -379,14 +380,14 @@ a {
     color: #152F4F;
     font-weight: bold;
     margin-top: 50px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
 }
 
 .P1 p {
     text-align: center;
     font-size: 1.2em;
     margin-top: 50px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
 }
 
 .P1 h5 {
@@ -402,14 +403,14 @@ a {
     color: #152F4F;
     font-weight: bold;
     margin-top: 20px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
 }
 
 .A1 h5 {
     text-align: center;
     font-size: 1.2em;
     margin-top: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
 
 }
 
@@ -426,14 +427,14 @@ a {
     color: #152F4F;
     font-weight: bold;
     margin-top: 50px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
 }
 
 .A1 P {
     text-align: center;
     font-size: 1.2em;
     margin-top: 50px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
 
 }
 
@@ -448,7 +449,7 @@ a {
     font-size: 1em;
     text-align: center;
     margin-top: 50px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
     font-weight: bold;
     color: #152F4F;
 }
