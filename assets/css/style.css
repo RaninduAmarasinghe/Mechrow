@@ -404,7 +404,7 @@ a {
     background-color: #007c7d;
 }
 
-/* About Section in About Us page */
+/* product page */
 
 .P1 h1 {
     text-align: center;
@@ -435,6 +435,20 @@ a {
     text-align: left;
     margin-left: 15px;
     margin-top: 50px;
+}
+
+.slider-cards .card .card-content button {
+    padding: 10px 20px;
+    background-color: #00a4a6;
+    position:relative;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; 
+}
+.slider-cards .card .card-content button:hover {
+    background-color: #007c7d;
 }
 
 /*Contact Us page */
